@@ -8,9 +8,9 @@ const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
-        paths: {
-                base: is_dev ? '' : '/sqlviz'
-        },
+	paths: {
+		base: is_dev ? '' : '/sqlviz'
+	},
 	kit: {
 		adapter: adapter()
 	}

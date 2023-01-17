@@ -1,2 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<textarea />
+
+<svg>
+	<rect x="0" y="0" width="100" height="100" fill="red" />
+	<rect x="100" y="0" width="100" height="100" fill="green" />
+	<rect x="200" y="0" width="100" height="100" fill="blue" />
+</svg>
+
+<style>
+	textarea {
+		width: 45%;
+		height: 400px;
+		font-family: monospace;
+	}
+
+	svg {
+		width: 50%;
+		height: 400px;
+		background: #fff;
+	}
+</style>
