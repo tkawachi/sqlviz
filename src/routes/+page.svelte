@@ -1,3 +1,10 @@
+<script lang="ts">;
+	import { browser } from '$app/environment';
+	if (browser) {
+		// Write browser-only code here
+	}
+</script>
+
 <textarea />
 
 <svg>
